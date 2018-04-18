@@ -283,6 +283,9 @@ hr{
     	font-size: 0.7em;
     	padding:5px;
     }
+    body{
+    	background-position: initial;
+    }
 }
 
 
