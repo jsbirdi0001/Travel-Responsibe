@@ -210,6 +210,17 @@ hr{
     	font-size: 0.7em;
     }
 }
+
+@media (max-width: 1000px){
+	.button{
+		display: none;
+	}
+	.boxshadow{
+		width: 100%;
+		
+	}
+}
+
 .contactus{
 	width: 40%;
 	align-content: center;
