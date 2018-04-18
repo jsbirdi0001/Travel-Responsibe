@@ -217,7 +217,10 @@ hr{
 	}
 	.boxshadow{
 		width: 100%;
-		
+
+	}
+	#wholewebsite{
+		width: 90%;
 	}
 }
 
