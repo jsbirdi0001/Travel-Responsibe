@@ -181,10 +181,68 @@ hr{
 
 }
 
+
+
+
+
+
+
+
+
+
+.contactus{
+	width: 40%;
+	align-content: center;
+	
+}
+.car{
+	transition:0.4s;
+	-webkit-transition-duration: 0.4s;
+	-transition-duration: 0.4s;
+
+}
+.car:hover{
+	transform: scale(1.05);
+}
+.headingonepage{
+	font-family: Calibri;
+	color: black;
+	text-align: center;
+	text-shadow: 2px 2px 3px grey;
+}
+
+@media (min-width: 1001px){
+	#wholewebsite{
+		width: 75%;
+	}
+	iframe{
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px){
+	.button{
+		display: none;
+	}
+	.boxshadow{
+		width: 100%;
+
+	}
+	#wholewebsite{
+		width: 90%;
+		margin: 0 5%;
+	}
+	iframe{
+		width: 90%;
+		height: 400px;
+	}
+}
+
+
 @media (max-width: 748px) {
     .navbar{
-    	font-size: 9px;
-    	padding: 4px;
+    	font-size: 11px;
+    	padding: 5px;
     }
     iframe{
     	width: 100%;
@@ -209,39 +267,22 @@ hr{
     footer{
     	font-size: 0.7em;
     }
+    .formtable{
+    	font-size: 9px;
+    	padding: 5px;
+    	width: 100%;
+    	box-sizing: border-box;
+    }
+    .bookcarimg{
+    	width:100%;
+    }
+    .heading{
+    	font-size: 1.3em;
+    }
+    table{
+    	font-size: 0.7em;
+    	padding:5px;
+    }
 }
 
-@media (max-width: 1000px){
-	.button{
-		display: none;
-	}
-	.boxshadow{
-		width: 100%;
 
-	}
-	#wholewebsite{
-		width: 90%;
-		margin: 0 5%;
-	}
-}
-
-.contactus{
-	width: 40%;
-	align-content: center;
-	
-}
-.car{
-	transition:0.4s;
-	-webkit-transition-duration: 0.4s;
-	-transition-duration: 0.4s;
-
-}
-.car:hover{
-	transform: scale(1.05);
-}
-.headingonepage{
-	font-family: Calibri;
-	color: black;
-	text-align: center;
-	text-shadow: 2px 2px 3px grey;
-}
