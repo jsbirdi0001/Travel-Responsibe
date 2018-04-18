@@ -181,7 +181,7 @@ hr{
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 748px) {
     .navbar{
     	font-size: 9px;
     	padding: 4px;
