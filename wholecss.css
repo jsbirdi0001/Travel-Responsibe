@@ -286,6 +286,9 @@ hr{
     body{
     	background-position: initial;
     }
+    video{
+    	width: 100%;
+    }
 }
 
 
