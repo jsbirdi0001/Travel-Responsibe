@@ -279,7 +279,7 @@ hr{
     .heading{
     	font-size: 1.3em;
     }
-    table{
+    table td{
     	font-size: 0.7em;
     	padding:5px;
     }
